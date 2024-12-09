@@ -64,7 +64,7 @@ function checkMatched(first, second) {
     second.classList.remove("flipped");
     first.classList.add("matched");
     second.classList.add("matched");
-    document.querySelector(".good").paly();
+    document.querySelector(".good").play();
   } else {
     triesEle.innerHTML = parseInt(triesEle.innerHTML) + 1;
     setTimeout(() => {
